@@ -1,0 +1,149 @@
+{
+   "query":{
+      "count":1,
+      "created":"2017-11-27T16:14:06Z",
+      "lang":"en-US",
+      "results":{
+         "channel":{
+            "units":{
+               "distance":"mi",
+               "pressure":"in",
+               "speed":"mph",
+               "temperature":"F"
+            },
+            "title":"Yahoo! Weather - Singapore, SG",
+            "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1062617/",
+            "description":"Yahoo! Weather for Singapore, SG",
+            "language":"en-us",
+            "lastBuildDate":"Tue, 28 Nov 2017 12:14 AM SGT",
+            "ttl":"60",
+            "location":{
+               "city":"Singapore",
+               "country":"Singapore",
+               "region":" SG"
+            },
+            "wind":{
+               "chill":"79",
+               "direction":"315",
+               "speed":"11"
+            },
+            "atmosphere":{
+               "humidity":"91",
+               "pressure":"1008.0",
+               "rising":"0",
+               "visibility":"14.6"
+            },
+            "astronomy":{
+               "sunrise":"6:51 am",
+               "sunset":"6:54 pm"
+            },
+            "image":{
+               "title":"Yahoo! Weather",
+               "width":"142",
+               "height":"18",
+               "link":"http://weather.yahoo.com",
+               "url":"http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+            },
+            "item":{
+               "title":"Conditions for Singapore, SG at 11:00 PM SGT",
+               "lat":"1.29378",
+               "long":"103.852997",
+               "link":"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1062617/",
+               "pubDate":"Mon, 27 Nov 2017 11:00 PM SGT",
+               "condition":{
+                  "code":"11",
+                  "date":"Mon, 27 Nov 2017 11:00 PM SGT",
+                  "temp":"78",
+                  "text":"Showers"
+               },
+               "forecast":[
+                  {
+                     "code":"47",
+                     "date":"28 Nov 2017",
+                     "day":"Tue",
+                     "high":"83",
+                     "low":"77",
+                     "text":"Scattered Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"29 Nov 2017",
+                     "day":"Wed",
+                     "high":"84",
+                     "low":"79",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"30 Nov 2017",
+                     "day":"Thu",
+                     "high":"85",
+                     "low":"80",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"01 Dec 2017",
+                     "day":"Fri",
+                     "high":"85",
+                     "low":"79",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"02 Dec 2017",
+                     "day":"Sat",
+                     "high":"85",
+                     "low":"79",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"03 Dec 2017",
+                     "day":"Sun",
+                     "high":"82",
+                     "low":"79",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"04 Dec 2017",
+                     "day":"Mon",
+                     "high":"81",
+                     "low":"78",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"05 Dec 2017",
+                     "day":"Tue",
+                     "high":"82",
+                     "low":"78",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"4",
+                     "date":"06 Dec 2017",
+                     "day":"Wed",
+                     "high":"82",
+                     "low":"78",
+                     "text":"Thunderstorms"
+                  },
+                  {
+                     "code":"28",
+                     "date":"07 Dec 2017",
+                     "day":"Thu",
+                     "high":"83",
+                     "low":"78",
+                     "text":"Mostly Cloudy"
+                  }
+               ],
+               "description":"<![CDATA[<img src=\"http://l.yimg.com/a/i/us/we/52/11.gif\"/>\n<BR />\n<b>Current Conditions:</b>\n<BR />Showers\n<BR />\n<BR />\n<b>Forecast:</b>\n<BR /> Tue - Scattered Thunderstorms. High: 83Low: 77\n<BR /> Wed - Thunderstorms. High: 84Low: 79\n<BR /> Thu - Thunderstorms. High: 85Low: 80\n<BR /> Fri - Thunderstorms. High: 85Low: 79\n<BR /> Sat - Thunderstorms. High: 85Low: 79\n<BR />\n<BR />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1062617/\">Full Forecast at Yahoo! Weather</a>\n<BR />\n<BR />\n<BR />\n]]>",
+               "guid":{
+                  "isPermaLink":"false"
+               }
+            }
+         }
+      }
+   }
+}
