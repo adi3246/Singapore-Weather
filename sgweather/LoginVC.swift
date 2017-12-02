@@ -15,6 +15,8 @@ class LoginVC: UIViewController {
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     
+    let uIAlertBuilder = UIAlertBuilder()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -30,8 +32,8 @@ class LoginVC: UIViewController {
             self.showWaitOverlay()
             Auth.auth().createUser(withEmail: txtEmail.text!, password: txtPassword.text!) { (user, error) in
                 self.removeAllOverlays()
-                if let firebaseError = error{
-                    print(firebaseError.localizedDescription)
+                if error != nil{
+                    self.uIAlertBuilder.showMessage(title: "Error", msg: (error?.localizedDescription)!, controller: self)
                 }else{
                     self.presentMainScreen()
                 }
@@ -44,8 +46,8 @@ class LoginVC: UIViewController {
             self.showWaitOverlay()
             Auth.auth().signIn(withEmail: txtEmail.text!, password: txtPassword.text!) { (user, error) in
                 self.removeAllOverlays()
-                if let firebaseError = error{
-                    print(firebaseError.localizedDescription)
+                if error != nil{
+                    self.uIAlertBuilder.showMessage(title: "Error", msg: (error?.localizedDescription)!, controller: self)
                 }else{
                     self.presentMainScreen()
                 }
@@ -54,7 +56,6 @@ class LoginVC: UIViewController {
         //self.presentMainScreen()
        
     }
-    
     
     func presentMainScreen(){
         

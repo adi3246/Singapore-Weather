@@ -17,7 +17,6 @@ protocol WeatherServiceDelegate{
 }
 
 class WeatherService{
-    
     var delegate:WeatherServiceDelegate? = nil
 
     func getTodayWeather() {
@@ -28,7 +27,7 @@ class WeatherService{
             case .success:
                 self.delegate!.requestSucceed(response: response.result.value!)
             case .failure(let error):
-                self.delegate!.requestFailed(error: error as! String)
+                self.delegate!.requestFailed(error: error.localizedDescription)
             }
         }
     }

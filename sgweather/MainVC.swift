@@ -20,7 +20,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Weat
     @IBOutlet weak var weatherTableView: UITableView!
     
     var wholeWeekForecastArray = [Forecast]()
-
+    let uIAlertBuilder = UIAlertBuilder()
     
     let realm = try! Realm()
     lazy var weatherObj: Results<WeatherObj> = { self.realm.objects(WeatherObj.self) }()
@@ -43,8 +43,6 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Weat
         super.viewDidLoad()
         navigationController?.navigationBar.barTintColor = UIColor(red: 237.0/255.0, green: 41.0/255.0, blue: 57.0/255.0, alpha: 1.0)
         self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-        
-
         
         if(Auth.auth().currentUser == nil){
            self.presentLoginScreen()
@@ -151,7 +149,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, Weat
     
     func requestFailed(error: String) {
         self.removeAllOverlays()
-        print(error)
+        self.uIAlertBuilder.showMessage(title: "Error", msg: error, controller: self)
     }
     
 }

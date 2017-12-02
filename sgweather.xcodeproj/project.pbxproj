@@ -23,6 +23,7 @@
 		9E8635951FCBEE220055B64B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E8635941FCBEE220055B64B /* GoogleService-Info.plist */; };
 		9E8635991FCBF1320055B64B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8635981FCBF1320055B64B /* MainVC.swift */; };
 		9E8BDD691FD1BB920092779F /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8BDD681FD1BB920092779F /* BaseVC.swift */; };
+		9E8BDD6C1FD1CF880092779F /* UIAlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8BDD6B1FD1CF880092779F /* UIAlertBuilder.swift */; };
 		9EC84F051FCCA6E2003DA2A8 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC84F041FCCA6E2003DA2A8 /* WeatherModel.swift */; };
 		C6460E204CDE5F7B1527C6E9 /* Pods_sgweatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF0412E325C9B46047ED3C1 /* Pods_sgweatherUITests.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		9E8635941FCBEE220055B64B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9E8635981FCBF1320055B64B /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		9E8BDD681FD1BB920092779F /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		9E8BDD6B1FD1CF880092779F /* UIAlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertBuilder.swift; sourceTree = "<group>"; };
 		9EC84F041FCCA6E2003DA2A8 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		D0CEE2E7AC1D43A3DA0C64F0 /* Pods-sgweatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sgweatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sgweatherUITests/Pods-sgweatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EBA7A30CC711A81BD9C59940 /* Pods-sgweatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sgweatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sgweatherUITests/Pods-sgweatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		9E8635611FCBE3E70055B64B /* sgweather */ = {
 			isa = PBXGroup;
 			children = (
+				9E8BDD6A1FD1CF550092779F /* Util */,
 				9E15FE9A1FCFE53300C7CD45 /* service */,
 				9E8635911FCBE44E0055B64B /* model */,
 				9E8635901FCBE4400055B64B /* viewController */,
@@ -211,6 +214,14 @@
 				9E15FE981FCDA17F00C7CD45 /* WeatherEntity.swift */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		9E8BDD6A1FD1CF550092779F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9E8BDD6B1FD1CF880092779F /* UIAlertBuilder.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -532,6 +543,7 @@
 				9E15FE991FCDA17F00C7CD45 /* WeatherEntity.swift in Sources */,
 				9E8635931FCBE49E0055B64B /* LoginVC.swift in Sources */,
 				9E26959D1FCD3FC30076D505 /* MainTableViewCell.swift in Sources */,
+				9E8BDD6C1FD1CF880092779F /* UIAlertBuilder.swift in Sources */,
 				9EC84F051FCCA6E2003DA2A8 /* WeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
